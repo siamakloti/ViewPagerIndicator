@@ -5,6 +5,7 @@ import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;
 import android.view.View;
+import android.view.Button;
 import android.widget.LinearLayout;
 
 /**
@@ -29,6 +30,7 @@ class IcsLinearLayout extends LinearLayout {
     private int mDividerHeight;
     private int mShowDividers;
     private int mDividerPadding;
+    private int mShowDivider;
 
 
     public IcsLinearLayout(Context context, int themeAttr) {
